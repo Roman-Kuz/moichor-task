@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/moichor-task/static/css/main.13a0d0c7.chunk.css",
+    "main.js": "/moichor-task/static/js/main.306ba481.chunk.js",
+    "main.js.map": "/moichor-task/static/js/main.306ba481.chunk.js.map",
+    "runtime-main.js": "/moichor-task/static/js/runtime-main.96a2a583.js",
+    "runtime-main.js.map": "/moichor-task/static/js/runtime-main.96a2a583.js.map",
+    "static/css/2.015dc0ab.chunk.css": "/moichor-task/static/css/2.015dc0ab.chunk.css",
+    "static/js/2.5c86fd91.chunk.js": "/moichor-task/static/js/2.5c86fd91.chunk.js",
+    "static/js/2.5c86fd91.chunk.js.map": "/moichor-task/static/js/2.5c86fd91.chunk.js.map",
+    "static/js/3.e38a7aff.chunk.js": "/moichor-task/static/js/3.e38a7aff.chunk.js",
+    "static/js/3.e38a7aff.chunk.js.map": "/moichor-task/static/js/3.e38a7aff.chunk.js.map",
+    "index.html": "/moichor-task/index.html",
+    "static/css/2.015dc0ab.chunk.css.map": "/moichor-task/static/css/2.015dc0ab.chunk.css.map",
+    "static/css/main.13a0d0c7.chunk.css.map": "/moichor-task/static/css/main.13a0d0c7.chunk.css.map",
+    "static/js/2.5c86fd91.chunk.js.LICENSE.txt": "/moichor-task/static/js/2.5c86fd91.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96a2a583.js",
+    "static/css/2.015dc0ab.chunk.css",
+    "static/js/2.5c86fd91.chunk.js",
+    "static/css/main.13a0d0c7.chunk.css",
+    "static/js/main.306ba481.chunk.js"
+  ]
+}
