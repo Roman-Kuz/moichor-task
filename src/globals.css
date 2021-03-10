@@ -1,0 +1,33 @@
+.ant-layout { 
+    height: 100vh;
+}
+
+.ant-layout-content {
+    max-width: 900px;
+    width: 100%;
+    align-self: center;
+    background-color: white;
+    margin: 50px 0;
+    border-radius: 5px;
+    padding: 50px;
+    overflow-y: scroll;
+}
+
+.ant-layout-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #188fffa2;
+}
