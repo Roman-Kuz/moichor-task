@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import '../../globals.css';
@@ -8,6 +8,7 @@ import Filtration from '../../components/filtration';
 
 const Note = ({ categoryProps, editNote, initialList }) => {
   const { id } = useParams();
+  const [params] = useState({ store: new EventStore(), stream: new EventStream() })
 
   const currNote = useMemo(() => initialList.find((item) => item.id === id), [id, initialList]);
 
@@ -27,8 +28,8 @@ const Note = ({ categoryProps, editNote, initialList }) => {
 
       <div id="anchor">
         <Whiteboard
-          events={new EventStream()}
-          eventStore={new EventStore()}
+          events={params.stream}
+          eventStore={params.store}
           width={300}
           height={300}
           style={{ backgroundColor: '#FFFFF0' }}

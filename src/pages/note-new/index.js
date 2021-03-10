@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from 'antd';
 import { Whiteboard, EventStream, EventStore } from '@ohtomi/react-whiteboard';
 import { useHistory } from 'react-router-dom';
@@ -6,6 +6,7 @@ import Filtration from '../../components/filtration';
 
 const NewNote = ({ categoryProps, addNote }) => {
   const history = useHistory();
+  const [params] = useState({ store: new EventStore(), stream: new EventStream() })
 
   return (
     <div>
@@ -13,8 +14,8 @@ const NewNote = ({ categoryProps, addNote }) => {
 
       <div id="anchor">
         <Whiteboard
-          events={new EventStream()}
-          eventStore={new EventStore()}
+          events={params.stream}
+          eventStore={params.store}
           width={300}
           height={300}
           style={{ backgroundColor: '#FFFFF0' }}

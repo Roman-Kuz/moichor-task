@@ -41,14 +41,14 @@ const categoriesList = [
 
 const MainRouter = ({ list, categoryProps, ...props }) => (
   <Switch>
-    <Route exact path="/">
-      <Notes list={list} {...props} />
-    </Route>
     <Route path="/new">
       <NewNote categoryProps={categoryProps} list={list} {...props} />
     </Route>
     <Route path="/edit/:id">
       <Note categoryProps={categoryProps} list={list} {...props} />
+    </Route>
+    <Route path="/">
+      <Notes list={list} {...props} />
     </Route>
   </Switch>
 );
